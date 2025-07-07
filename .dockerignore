@@ -1,0 +1,12 @@
+# Ignore unnecessary files for production build
+README.md
+.git
+.gitignore
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+**/*.osm.pbf
+
+# Keep only the essential OSRM files
+!**/*.osrm*
